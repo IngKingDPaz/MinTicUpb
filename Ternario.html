@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+
+<!-- Ternario -->
+// <!-- condition ? instructionIfTrue : instructionIfFalse; -->
+// var numberLiteral = a == 5 ? 'Five' :
+//                     a == 7 ? 'Seven' :
+//                     a == 11 ? 'Eleven' :
+//                     a == 15 ? 'Fifteen' :
+//                     'Other Number';
+ 
+// console.log( numberLiteral ); // Eleven
+const array1=["r","e","y"]
+
+const array=[{"nombre":"reyner", "pass":"1238"},{"nombre":"pepito","pass":"456"},{"nombre":"juanchito","pass":"7890"}]
+console.log(array)
+
+
+// for( x in array)
+// {
+
+//    // console.log("for "+array[x])
+//  //console.log("longitud "+array[x].pass.length)
+
+//     if (array[x].pass.length==3) {
+//       //  console.log(typeof array[x])
+//      console.log("encontrado "+array[x].nombre)
+
+//     }
+//     // else
+//     // { console.log(array[x].pass)}
+
+// }
+
+// array.forEach(function(y){
+
+//     console.log("foreach "+y.nombre)
+// })
+
+//funcion flecha
+var x=18
+let f=(variable)=> variable==18? "mayor de edad":"menor de edad" 
+
+console.log(f(x))
+
+let z= array1.sort()
+console.log(z)
+
+
+ var cond= x==18? "mayor de edad":"menor de edad"   ;
+ console.log(cond)
+ 
+var promedio=(n1,n2,n3)=>(n1+n2+n3)/3
+console.log(promedio(2,3,5))
+ 
+var promedio=(n1,n2,n3)=> ((n1+n2+n3)/3)>3?  "Gano Ciclo":"Perdió el ciclo"  
+console.log(promedio(2,3,5))
+console.log(promedio(2,3,2))
+
+</script>
+
+
